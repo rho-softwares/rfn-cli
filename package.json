@@ -4,9 +4,11 @@
   "description": "TODO",
   "bin": "dst/js/.bin/cli",
   "scripts": {
-    "bin": "dst/js/.bin/cli",
-    "github-push": "npm version patch && ./dst/js/.bin/cli --github-push ",
-    "release-cli": "cd src/ && npx shadow-cljs release cli"
+    "bin": "dst/js/.bin/cli"
+  },
+  "comments": {
+    "github-push": "npm version patch && npm run bin -- --github-push",
+    "release-cli": "npm run bin -- --release-cli"
   },
   "repository": {
     "type": "git",
