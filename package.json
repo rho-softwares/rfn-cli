@@ -1,0 +1,37 @@
+{
+  "name": "rfn-cli",
+  "version": "0.0.16",
+  "description": "TODO",
+  "scripts": {
+    "bin": "dst/js/.bin/cli",
+    "github-push": "npm version patch && npm run bin -- --github-push",
+    "release-cli": "cd src/ && npx shadow-cljs release cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoTamiazzo/rfn-cli.git"
+  },
+  "keywords": [
+    "rfn-cli",
+    "bootstrapper",
+    "reframe-cljs",
+    "react-native",
+    "clojurescript",
+    "cljs"
+  ],
+  "author": "ρ™ - RTN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigoTamiazzo/rfn-cli/issues"
+  },
+  "homepage": "https://github.com/rodrigoTamiazzo/rfn-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "minimist": "^1.2.5",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "source-map-support": "^0.5.20"
+  }
+}
