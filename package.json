@@ -1,6 +1,6 @@
 {
   "name": "@rodrigoTamiazzo/rfn-cli",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "TODO",
   "bin": "dst/js/.bin/cli",
   "scripts": {
