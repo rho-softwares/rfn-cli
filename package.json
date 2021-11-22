@@ -7,7 +7,7 @@
     "bin": "dst/js/.bin/cli"
   },
   "comments": {
-    "github-deploy": "npm run bin -- --github-deploy",
+    "github-deploy": "npm run bin -- --git-deploy",
     "release-cli": "npm run bin -- --release-cli"
   },
   "repository": {
