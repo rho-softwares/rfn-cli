@@ -4,7 +4,8 @@
   "description": "TODO",
   "bin": "dst/js/.bin/cli",
   "scripts": {
-    "bin": "dst/js/.bin/cli"
+    "bin": "dst/js/.bin/cli",
+    "installDeps": "npm install --ignore-scripts"
   },
   "comments": {
     "release-cli": "npm run bin -- --release-cli",
@@ -29,6 +30,7 @@
   },
   "homepage": "https://github.com/rho-softwares/rfn-cli#readme",
   "dependencies": {
+    "ansi-regex": "5.0.1",
     "cfonts": "^2.10.0",
     "chalk": "^4.1.2",
     "cli-width": "^3.0.0",
