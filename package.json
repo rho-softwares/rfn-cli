@@ -5,7 +5,7 @@
   "bin": "dst/js/.bin/cli",
   "scripts": {
     "bin": "dst/js/.bin/cli",
-    "installDeps": "npm install --ignore-scripts"
+    "npm-install": "rm ./package-lock.json ; rm -r ./node_modules ; npm install --ignore-scripts"
   },
   "comments": {
     "release-cli": "npm run bin -- --release-cli",
