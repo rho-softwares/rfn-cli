@@ -1,6 +1,6 @@
 {
   "name": "@rho-softwares/rfn-cli",
-  "version": "0.1.226",
+  "version": "0.1.227",
   "description": "TODO",
   "bin": "dst/js/.bin/cli",
   "scripts": {
